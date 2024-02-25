@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <img id="header-img" src="https://pbs.twimg.com/profile_images/1531998332347990017/HGRMiQ___400x400.jpg" alt="">
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#pizzas">Pizzas</a></li>
+                <li><a class="nav-link" href="#products">Prodcuts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero">
+        <h2 class="start">Start you delivery!</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input name="email" id="email" type="email" placeholder="Enter your email address" required>
+            <input name="location" id="location" type="text" placeholder="Enter you location" required>
+            <input id="submit" type="submit" value="Start!" class="">
+        </form>
+    </div>
+    <div class="container">
+        <section id="features">
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa-solid fa-pizza-slice"></i>
+                </div>
+                <div class="desc">
+                    <h2>Quality Pizzas</h2>
+                    <p>We have the best pizzas in the country, with a lot of different ingredients and sizes.</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa-solid fa-truck"></i>
+                </div>
+                <div class="desc">
+                    <h2>Fast Delivery</h2>
+                    <p>We have the fastest home service, 30 minutes or the delivery is <b>FREE!</b></p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="fa-solid fa-credit-card"></i>
+                </div>
+                <div class="desc">
+                    <h2>Different payment methods</h2>
+                    <p>We have different payment methods, with cash, mastercard or visacard</p>
+                </div>
+            </div>
+        </section>
+        <section id="pizzas">
+            <iframe id="video" height="315" src="https://www.youtube.com/embed/0S-fEn4wA4Y?si=eHB6Yc-TYxcjd3_m&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        <section id="products">
+            <div class="product" id="">
+                <div class="level">
+                    HAWAIIAN CHICK
+                </div>
+                <img src="https://cache.dominos.com/wam/prod/market/CO/_es/images/promo/a20eab21-c1e9-4c95-a0f8-0fcc1ef3a937.jpg" alt="HAWAIIAN CHICK PIZZA">
+                <h2>$6.99</h2>
+                <ol>
+                    <li>Mozzarella Cheese</li>
+                    <li>Chicken Pieces</li>
+                    <li>Pineapple</li>
+                    <li>Bacon</li>
+                    <li>BBQ sauce</li>
+                </ol>
+                <button class="btn">SELECT</button>
+            </div>
+            <div class="product" id="">
+                <div class ="level">
+                    AMERICAN
+                </div>
+                <img src="https://cache.dominos.com/wam/prod/market/CO/_es/images/promo/88699162-e053-4499-ba5a-615f43488661.jpg" alt="AMERICAN PIZZA">
+                <h2>$8.99</h2>
+                <ol>
+                    <li>Mozzarella Cheese</li>
+                    <li>Corn</li>
+                    <li>Beacon</li>
+                    <li>Pepperoni</li>
+                    <li>BBQ sauce</li>
+                </ol>
+                <button class="btn">SELECT</button>
+            </div>
+            <div class="product" id="">
+                <div class="level">
+                  ITALIAN  
+                </div>
+                <img src="https://cache.dominos.com/wam/prod/market/CO/_es/images/promo/77b7e943-ae06-4474-b3af-8d9070b46801.jpg" alt="ITALIAN PIZZA">
+                <h2>$10.99</h2>
+                <ol>
+                    <li>Mozzarella Cheese</li>
+                    <li>Pepperoni</li>
+                    <li>Salami</li>
+                    <li>Onion</li>
+                    <li>Tomato</li>
+                </ol>
+                <button class="btn">SELECT</button>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <span>Created by Jose Ospina for FreeCodeCamp Project 2024</span>
+        <ul>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        </ul>
+        <ul>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+        <ul>
+            <li><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+        </ul>
+    </footer>
+    <script src="https://kit.fontawesome.com/890f87cd6d.js" crossorigin="anonymous"></script>
+</body>
+</html>
